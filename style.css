@@ -1,0 +1,356 @@
+/* Colors */
+*{
+
+    --light-bg: #f7f7f7;
+    --light-bg2: #ECF0F1;
+
+    --dark-bg: #2C3E50;
+
+    --light-text: white;
+    --dark-text: #333;
+
+    --accent: #2980B9;
+    
+    scroll-behavior: smooth;
+    
+}
+/* General Styling */
+body {
+    hyphens: auto; 
+	text-align: justify;
+    overflow-x: hidden;
+    box-sizing: content-box;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(public/Logo_mit_Siegel.png);
+    background-position: center;
+    background-size: 33%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-color: var(--light-bg); */
+    color: var(--dark-text);
+    margin: 0;
+    padding: 0;
+
+    
+    /* background-image: url("./public/test.jpg"); */
+    /* background-size: cover; */
+    
+}
+
+header,
+footer {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header{
+    box-shadow: 0 0 10px 0 var(--dark-text);
+    
+}
+
+/* Cards */
+
+.showcase {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius: 2rem;
+    border: 1px var(--dark-bg);
+    box-shadow:  3px 6px rgba(0, 0, 0, 0.1);
+    font-size: large;
+    
+
+}
+
+.value {
+    transition: ease-in 0.5s;
+}
+
+.value:hover {
+    font-size: xx-large;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -40vh;
+    visibility: hidden;
+}
+
+.card {
+    width: 15vw;
+    min-height: 25vh;
+    text-overflow: ellipsis;
+    
+    /* flex: 0; */
+
+    border-radius: 1rem;
+    padding: 2rem;
+
+    box-shadow:  3px 6px var(--dark-bg);
+    /* box-shadow: #BDC3C7 1px ; */
+    
+    transition: ease-in 0.2s;
+}
+
+.card:hover {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    border-color: var(--light-bg2);
+}
+
+.t-card {
+
+    padding: 2rem;
+    
+    transition: ease-in 0.2s;
+}
+
+.t-card:hover{
+    background-color: var(--light-bg2);
+    color: var(--dark-text);
+    border-color: var(--dark-bg);
+}
+/* Sections */
+
+section {
+    padding: 1.5rem;
+}
+
+.section-light {
+    background-color: rgba(255, 255, 255, 1);
+    color: var(--dark-text);
+}
+
+.section-dark {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+}
+
+/* Navigation */
+header{
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--light-text);
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#impressum a {
+    color: var(--dark-text);
+}
+
+#uebergreifend{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#unternehmensvorstellung img {
+    size: 0.5;
+}
+
+/* Unternehmensvorstellung */
+
+
+
+/* Unsere Werte */
+/* #unsere-werte {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* Dienstleistungen */
+
+/* Vorteile mit Uns */
+
+/* Tätigkeiten */
+
+/* Contact */
+
+#kontakt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* flex: 1 0 50%; */
+    /* text-align: center; */
+}
+
+form {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #BDC3C7;
+}
+
+button {
+    padding: 12px;
+    background-color: #2980B9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #3498DB;
+}
+
+#unternehmensvorstellung {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: ; */
+    align-items: center;
+    
+	hyphens: auto; 
+	text-align: justify
+}
+
+#unternehmensvorstellung div {
+    width: 45%;
+}
+
+#uebergreifend {
+    min-height: 50%;
+    background-image: url(public/abc.jpg);
+    background-size: cover;
+    background-position: 50% 75%;
+    filter: grayscale(0.5);
+    }
+
+
+.intro-card {
+
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    color: var(--light-text);
+}
+
+li::before {
+  
+    /* content: url('./fontawesome/svgs/solid/circle-check.svg'); */
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  font-size: small;
+}
+
+.partners{
+
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    justify-content: center;
+}
+.partners img {
+    scale: 0.5;
+}
+
+
+
+@media (max-width: 1580px)  {
+    .card { 
+        width: 40%;
+        height: fit-content;
+     }
+    
+     #kontakt {
+        flex-direction: column;
+     }
+
+    
+}
+@media (max-width: 800px )  {
+    .card { 
+        width: 100%;
+        height: fit-content;
+     }
+
+     .showcase{
+        font-size: small;
+        text-align: center;
+        hyphens: none;
+     }
+    
+     #kontakt {
+        flex-direction: column;
+     }
+
+#unternehmensvorstellung {
+    flex-direction: column-reverse;
+}
+
+     #unternehmensvorstellung div{
+        width: auto;
+     }
+     #unternehmensvorstellung img{
+        width: 66%;
+     }
+     .partners a {
+        scale: 0.25;
+     }
+     .partners img {
+        scale: 1.5;
+     }
+    
+}
+
+@media (max-width: 600px )  {
+
+
+     .showcase{
+        font-size: small;
+     }    
+}
+
+
