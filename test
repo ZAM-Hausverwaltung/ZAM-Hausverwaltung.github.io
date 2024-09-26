@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ZAM Hausverwaltung München - Ihre zuverlässige Immobilienverwaltung</title>
+    <meta name="description" content="ZAM Hausverwaltung in München bietet professionelle Dienstleistungen für Immobilienverwaltung, Mietobjekte und Instandhaltung. Kontaktieren Sie uns noch heute.">
+    <meta name="keywords" content="Hausverwaltung München, Immobilienverwaltung, Mietverwaltung, Eigentumswohnungen, Instandhaltung, Gebäudemanagement, ZAM Hausverwaltung">
+    <meta name="author" content="ZAM Hausverwaltung München">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #34495e;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .services, .contact {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2c3e50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .contact-form button:hover {
+            background-color: #34495e;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ZAM Hausverwaltung München</h1>
+    <p>Ihre zuverlässige Verwaltung für Immobilien in München und Umgebung</p>
+</header>
+
+<nav>
+    <a href="#about">Über uns</a>
+    <a href="#services">Dienstleistungen</a>
+    <a href="#contact">Kontakt</a>
+</nav>
+
+<section id="about">
+    <div class="about">
+        <h2>Über uns</h2>
+        <p>ZAM Hausverwaltung in München ist spezialisiert auf die Verwaltung von Wohn- und Gewerbeimmobilien. Mit über 10 Jahren Erfahrung bieten wir maßgeschneiderte Lösungen, die den Wert Ihrer Immobilie langfristig sichern. Wir verwalten Mietobjekte, Eigentumswohnungen sowie Gewerbeeinheiten und sorgen für effiziente Abläufe in der Immobilienverwaltung.</p>
+    </div>
+</section>
+
+<section id="services">
+    <div class="services">
+        <h2>Unsere Dienstleistungen</h2>
+        <ul>
+            <li>Verwaltung von Mietobjekten und Eigentumswohnungen</li>
+            <li>Buchhaltung und Nebenkostenabrechnungen</li>
+            <li>Technisches Gebäudemanagement und Instandhaltungsmanagement</li>
+            <li>Beratung und Vertretung der Eigentümerinteressen</li>
+            <li>Kommunikation mit Mietern und Eigentümern</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact">
+        <h2>Kontaktieren Sie ZAM Hausverwaltung München</h2>
+        <p>Sie haben Fragen oder möchten ein unverbindliches Angebot? Kontaktieren Sie uns noch heute!</p>
+        <form class="contact-form" action="https://example.com/contact" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Absenden</button>
+        </form>
+        <p>Telefon: +49 89 123 4567</p>
+        <p>E-Mail: info@zam-hausverwaltung.de</p>
+        <p>Anschrift: ZAM Hausverwaltung, Musterstraße 1, 80331 München</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 ZAM Hausverwaltung München. Alle Rechte vorbehalten.</p>
+</footer>
+
+</body>
+</html>
